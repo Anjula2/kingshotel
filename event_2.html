@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./event-2-style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>CORPORATE FUNCTIONS</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <section class="nav_logo">
+            <a href="./home_page.html"><img src="./logo-gold.png" alt="logo"></a>
+    </section>
+    <ul class="nav_links">
+        <li class="links"><a href="./home_page.html">Home</a></li>
+        <li class="links"><a href="./hotel_branches.html">Hotel Branches</a></li>
+        <li class="links"><a href="./adventure.html">Adventures</a></li>
+        <li class="links"><a href="./Restaurants.html">Restaurants</a></li>
+        <li class="links"><a href="./event_1.html">BBQ Night with Live Music</a></li>
+        <li><a href="./Book_Now.html" class="ctn">Book Now</a></li>
+    </ul>
+       <img src="./menu button.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <section class="header-content">
+            <h2>For Celebrate your success together</h2>
+            <section class="line"></section>
+            <h1>CORPORATE FUNCTIONS</h1>
+        </section>
+    </header>
+
+    <section class="wrapper top">
+        <section class="box-1"></section>
+        <section class="container">
+            <section class="text">
+                <h2>About Our Service</h2>
+                <p>As a hotel chain providing corporate event services, we have a team of professionals who can help event plan and execute. These professionals can help with everything from finding the right venue to booking catering and entertainment. They can also help with logistics like transportation and accommodation and we also provide you with the following services.</p>
+                    <ul class="items">
+                        <li>Decorations</li>
+                        <li>Foods</li>
+                        <li>Lightings</li>
+                        <li>Dance Floor</li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+    </section>
+    
+    <h2 class="section__header-2">Our Banquet Halls</h2>
+    <section class="line"></section>
+    <section class="banquets">
+<section class="section__container banquets-card">
+    <section class="face front">
+        <img src="./The Green Banquets.jpg" alt="A picture of The Green Banquet">
+        <h3>The Green Banquets</h3>
+    </section>
+</section>
+
+<section class="section__container banquets-card">
+    <section class="face front">
+        <img src="./Orange Blossom Halls.jpg" alt="A picture of Orange Blossom Hall">
+        <h3>Orange Blossom Halls</h3>
+    </section>
+</section>
+
+<section class="section__container banquets-card">
+    <section class="face front">
+        <img src="./Cinnamon Events Halls.jpg" alt="A picture of Cinnamon Events Hall">
+        <h3>Cinnamon Events Halls</h3>
+    </section>
+</section>
+</section>
+
+<section class="contact">
+    <section class="contact_content">
+        <h1>Contact Us</h1>
+        <p>We're always happy to help! Please don't hesitate to contact us with any questions or concerns.</p>
+    </section>
+    <section class="contact_container">
+        <section class="contactInfo">
+            <section class="contact-box">
+                <section class="icon"><img src="./address.png" alt=""></section>
+                <section class="text">
+                    <h3>Address</h3>
+                    <p>The King's Hotels Corparate Head Office <br>No 37 Mudalige Mawatha Road,Colombo 07, <br>Sri Lanka</p>
+                </section>
+            </section>
+        <section class="contact-box">
+            <section class="icon"><img src="./phone.png" alt=""></section>
+            <section class="text">
+                <h3>Phone</h3>
+                <p>011-2246333</p>
+            </section>
+        </section>
+    <section class="contact-box">
+        <section class="icon"><img src="./email.png" alt=""></section>
+        <section class="text">
+            <h3>Email</h3>
+            <p>enquiries@thekingshotel.com</p>
+        </section>
+    </section>
+</section>
+<section class="contactForm">
+    <form>
+        <h2>Send Message</h2>
+        <section class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Full Name</span>
+        </section>
+        <section class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Email</span>
+        </section>
+        <section class="inputBox">
+            <textarea required="required"></textarea>
+            <span>Type Your Message...</span>
+        </section>
+        <section class="inputBox">
+            <input type="submit" name="" value="Send">
+        </section>
+    </form>
+</section>
+</section>
+</section>
+
+<footer>
+    <p class="p-0">The King's Hotels Corparate Head Office | No 37 Mudalige Mawatha Road,Colombo 07, Sri Lanka</p>
+    <p class="p-0">Email: enquiries@thekingshotel.com | TP: 011-2246333</p>
+    <p class="p-1">follow us</p>
+    <section class="footer__col">
+    <a href="#"><img src="./facebook.png" alt="logo of facebook"></a>
+    <a href="#"><img src="./insta.png" alt="logo of instagram"></a>
+    <a href="#"><img src="./twitter.png" alt="logo of twitter"></a>
+    <a href="#"><img src="./linkdin.png" alt="logo of linkedin"></a>
+</section>
+    <p class="p-2">Copyright © 2023 The King's Hotel. All Rights Reserved.</p>
+</footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav_links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
